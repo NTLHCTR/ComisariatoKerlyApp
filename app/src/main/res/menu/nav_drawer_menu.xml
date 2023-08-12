@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/mwo">
+        <item android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_icon"
+            android:title="Inicio"/>
+
+        <item android:id="@+id/nav_myOrders"
+            android:icon="@drawable/ic_order_icon"
+            android:title="Mis Órdenes"/>
+
+        <item android:id="@+id/nav_Whishlist"
+            android:icon="@drawable/ic_wishlist_icon"
+            android:title="Favoritos"/>
+
+        <item android:id="@+id/nav_cart"
+            android:icon="@drawable/ic_cart_icon"
+            android:title="Carrito de compras"/>
+
+        <item android:id="@+id/nav_Offers"
+            android:icon="@drawable/ic_offer_icon"
+            android:title="Ofertas"/>
+
+    </group>
+
+    <group android:id="@+id/mpa">
+        <item android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person_pin_icon"
+            android:title="Perfil"/>
+
+        <item android:id="@+id/nav_notification"
+            android:icon="@drawable/ic_notification_icon"
+            android:title="Notificaciones"/>
+
+        <item android:id="@+id/nav_help"
+            android:icon="@drawable/ic_call_icon"
+            android:title="Ayuda"/>
+
+        <item android:id="@+id/nav_privacy"
+            android:icon="@drawable/ic_security_icon"
+            android:title="Privacidad"/>
+
+        <item android:id="@+id/nav_about_us"
+            android:icon="@drawable/ic_aboutus_icon"
+            android:title="Invitar amigos"/>
+    </group>
+
+    <group android:id="@+id/rrl">
+        <item android:id="@+id/nav_refer_friend"
+            android:icon="@drawable/ic_share_icon"
+            android:title="Perfil"/>
+
+        <item android:id="@+id/nav_rate"
+            android:icon="@drawable/ic_thumb_up_icon"
+            android:title="Notificaciones"/>
+
+        <item android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout_icon"
+            android:title="Cerrar Sesión"/>
+    </group>
+
+</menu>

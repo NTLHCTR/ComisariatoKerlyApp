@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GroceryApp" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Customize your light theme here. Theme.MaterialComponents.Light.NoActionBar-->
+
+        <item name="colorPrimary">@color/slate_blue</item>
+        <item name="colorPrimaryVariant">@color/midnight_blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorSecondary">@color/aqua</item>
+        <item name="colorSecondaryVariant">@color/dark_cyan</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+    </style>
+
+    <style name="Theme.GroceryApp" parent="Base.Theme.GroceryApp" />
+</resources>
